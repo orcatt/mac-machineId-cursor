@@ -57,5 +57,5 @@ def modify_machine_ids_in_directory(file_path):
 
 if __name__ == '__main__':
     # 文件路径
-    file_path = '/Users/orcatt/Library/Application Support/Cursor/User/globalStorage/test/storage.json'
+    file_path = '/Users/orcatt/Library/Application Support/Cursor/User/globalStorage/storage.json'
     modify_machine_ids_in_directory(file_path)
