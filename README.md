@@ -13,7 +13,7 @@
 
 ### 安装
 
-1. 克隆仓库或下载 Python 脚本：
+克隆仓库或下载 Python 脚本：
 
 ```bash
 git clone https://github.com/orcatt/mac-machineId-cursor.git
@@ -34,14 +34,16 @@ python modify_mac_ids.py
 
 脚本将对 storage.json 文件中的以下字段进行修改：
 
-telemetry.sqmId
-telemetry.macMachineId
-telemetry.machineId
-telemetry.devDeviceId
+- telemetry.macMachineId
+- telemetry.machineId
+- telemetry.devDeviceId
+
 每个字段的值将随机替换其中的两个字符，确保修改后仍符合机器标识符格式。
 
-贡献
+## 贡献
+
 欢迎提出改进建议！如果你有好的功能想法或发现了 bug，欢迎提交 issue 或者 pull request。
 
-License
+## License
+
 MIT License.
