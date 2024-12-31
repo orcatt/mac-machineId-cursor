@@ -27,7 +27,7 @@ cd mac-machineId-cursor
 ### 使用
 
 ```bash
-python modify_mac_ids.py
+python resetMacMachineId.py
 ```
 
 ## 脚本内容
